@@ -1,0 +1,19 @@
+{
+  "name": "marisqueria-el-viejon",
+  "version": "1.0.0",
+  "description": "Ejemplo de clase para el grupo de Programación Web Front End Agosto-Diciembre 2023",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dilan03/marisqueria-el-viejon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dilan03/marisqueria-el-viejon/issues"
+  },
+  "homepage": "https://github.com/Dilan03/marisqueria-el-viejon#readme"
+}
