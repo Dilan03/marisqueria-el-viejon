@@ -1,0 +1,20 @@
+$color_boton: #008d7d;
+$color_hover: #19aa99;
+$color_active: #035f54;
+
+.btn-primary{
+    background-color: $color_boton;
+    border: none;
+    :hover{
+        background-color: $color_hover;
+    }
+    :active{
+        background-color: $color_active !important;
+    }
+}
+
+.container{
+    span{
+        color: white;
+    }
+}
