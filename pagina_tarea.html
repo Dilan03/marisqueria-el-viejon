@@ -15,6 +15,7 @@
    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
    rel="stylesheet">
    <link href="./main.css" rel="stylesheet">
+   <link href="./main2.css" rel="stylesheet">
 </head>
 
 <body>
@@ -130,45 +131,73 @@
    <!-- End Hero Section -->
 
    <main id="main">
-
-      <!-- ======= Acerca de nosotros Section ======= -->
-      <section id="about" class="about">
+      <section id="portfolio" class="portfolio sections-bg">
          <div class="container" data-aos="fade-up">
 
             <div class="section-header">
-               <h2>Acerca de nosotros</h2>
-               <p>En TomaPerroTech, 
-                  nos enorgullece ser tu destino confiable para todas tus necesidades de hardware y componentes informáticos, además
-                  de contar con componentes de electrónica. Somos un equipo apasionado de entusiastas de la tecnología, y nuestra misión 
-                  es proporcionar a nuestros clientes productos de alta calidad y un servicio excepcional que garantice que sus equipos 
-                  funcionen al máximo rendimiento.</p>
+               <h2>Productos destacados del mes!!!</h2>
+               <p>Estos son los productos más destacados del mes de Octubre</p>
             </div>
 
-            <div class="row gy-4">
-               <div class="col-lg-6">
-                  <h3>Nuestra Empresa</h3>
-                  <!--<img src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt="Nuestra Empresa">-->
-                  <p>Somos una empresa comprometida con la excelencia y la satisfacción del cliente. Nuestro objetivo es brindar productos y servicios de alta calidad que superen las expectativas de nuestros clientes. </p>
-                  <p>Estamos enfocados en la innovación y la mejora continua. Nos esforzamos por proporcionar soluciones tecnológicas de vanguardia que impulsen el éxito de nuestros clientes.</p>
+            <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry"
+               data-portfolio-sort="original-order" data-aos="fade-up" data-aos-delay="100">
+
+               <div>
+                  <ul class="portfolio-flters">
+                     <li data-filter="*" class="filter-active">Componentes</li>
+                     <li data-filter=".filter-app">Periféricos</li>
+                     <li data-filter=".filter-product">Bocinas</li>
+                     <li data-filter=".filter-branding">Circuitos</li>
+                     <li data-filter=".filter-books">Kits de Limpieza</li>
+                  </ul>
                </div>
-               <div class="col-lg-6">
-                  <div class="content ps-0 ps-lg-5">
-                     <p class="fst-italic">
-                        En nuestra empresa, creemos en la importancia de la innovación y la dedicación a la excelencia en todo lo que hacemos.
-                     </p>
-                     <ul>
-                        <li><i class="bi bi-check-circle-fill"></i> Nos comprometemos a ofrecer productos de alta calidad y un servicio excepcional.</li>
-                        <li><i class="bi bi-check-circle-fill"></i> Valoramos la satisfacción del cliente y trabajamos incansablemente para superar sus expectativas.</li>
-                        <li><i class="bi bi-check-circle-fill"></i> Nuestra dedicación a la innovación nos impulsa a buscar soluciones tecnológicas avanzadas para nuestros clientes.</li>
-                     </ul>
-                     <p>
-                        En cada paso que damos, nos esforzamos por superar los estándares de la industria y ser líderes en nuestro campo. Tu éxito es nuestra prioridad.
-                     </p>
+
+               <div class="row gy-4 portfolio-container">
+
+                  <div class="card ms-2" style="width: 18rem;">
+                     <img src="https://dlcdnwebimgs.asus.com/files/media/D35E4510-6019-4090-9676-6830AB80C4DB/v1/img/ports_pd.png" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="card-title">Evangelion ASUS ATX ROG MAXIMUS Z790</h5>
+                        <p class="card-text">La mejor tarjeta para desearle a la gente un ¡Feliz Jueves!</p>
+                        <a href="#" class="btn btn-primary">Ver producto</a>
+                     </div>
                   </div>
+
+                  <div class="card ms-2" style="width: 18rem;">
+                     <img src="https://www.geekfactory.mx/wp-content/uploads/raspberry-pi-5.jpg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="card-title">Raspberry Pi 5</h5>
+                        <p class="card-text">La última Raspberry disponible con nosotros!</p>
+                        <a href="#" class="btn btn-primary">Ver producto</a>
+                     </div>
+                  </div>
+
+                  <div class="card ms-2" style="width: 18rem;">
+                     <img src="https://www.guru3d.com/data/publish/221/49aef65b3e6c9c240e7ab833738bd6d8fa479c/676676.webp" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="card-title">Intel Core i9 14900KF</h5>
+                        <p class="card-text">Lo mejor de Intel está aquí.</p>
+                        <a href="#" class="btn btn-primary">Ver producto</a>
+                     </div>
+                  </div>
+
+
+                  <div class="card ms-2" style="width: 18rem;">
+                     <img src="https://acf.geeknetic.es/imgri/Imagenes/Tutoriales/2021/2093-amd-ryzen-5-5600g/2093-amd-ryzen-5-5600g-cabecera.jpg?f=webp" class="card-img-top" alt="...">
+                     <div class="card-body">
+                        <h5 class="card-title">AMD Ryzen 5 5600G</h5>
+                        <p class="card-text">El procesador más popular y vendido de AMD.</p>
+                        <a href="#" class="btn btn-primary">Ver producto</a>
+                     </div>
+                  </div>
+
                </div>
-            </div>            
+
+            </div>
+
          </div>
-      </section><!-- End About Us Section -->
+      </section>
+      <!-- ======= Acerca de nosotros Section ======= -->
 
       <!-- ======= Call To Action Section ======= -->
       <section id="call-to-action" class="call-to-action">
@@ -341,218 +370,6 @@
          </div>
       </section><!-- End Testimonials Section -->
 
-      <!-- ======= Portfolio Section ======= -->
-      <section id="portfolio" class="portfolio sections-bg">
-         <div class="container" data-aos="fade-up">
-
-            <div class="section-header">
-               <h2>Productos destacados del mes!!!</h2>
-               <p>Estos son los productos más destacados del mes de Octubre</p>
-            </div>
-
-            <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry"
-               data-portfolio-sort="original-order" data-aos="fade-up" data-aos-delay="100">
-
-               <div>
-                  <ul class="portfolio-flters">
-                     <li data-filter="*" class="filter-active">Componentes</li>
-                     <li data-filter=".filter-app">Periféricos</li>
-                     <li data-filter=".filter-product">Bocinas</li>
-                     <li data-filter=".filter-branding">Circuitos</li>
-                     <li data-filter=".filter-books">Kits de Limpieza</li>
-                  </ul>
-               </div>
-
-               <div class="row gy-4 portfolio-container">
-
-                  <div class="card ms-2" style="width: 18rem;">
-                     <img src="https://dlcdnwebimgs.asus.com/files/media/D35E4510-6019-4090-9676-6830AB80C4DB/v1/img/ports_pd.png" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Evangelion ASUS ATX ROG MAXIMUS Z790</h5>
-                        <p class="card-text">La mejor tarjeta para desearle a la gente un ¡Feliz Jueves!</p>
-                        <a href="#" class="btn btn-primary">Ver producto</a>
-                     </div>
-                  </div>
-
-                  <div class="card ms-2" style="width: 18rem;">
-                     <img src="https://www.geekfactory.mx/wp-content/uploads/raspberry-pi-5.jpg" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Raspberry Pi 5</h5>
-                        <p class="card-text">La última Raspberry disponible con nosotros!</p>
-                        <a href="#" class="btn btn-primary">Ver producto</a>
-                     </div>
-                  </div>
-
-                  <div class="card ms-2" style="width: 18rem;">
-                     <img src="https://www.guru3d.com/data/publish/221/49aef65b3e6c9c240e7ab833738bd6d8fa479c/676676.webp" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">Intel Core i9 14900KF</h5>
-                        <p class="card-text">Lo mejor de Intel está aquí.</p>
-                        <a href="#" class="btn btn-primary">Ver producto</a>
-                     </div>
-                  </div>
-
-
-                  <div class="card ms-2" style="width: 18rem;">
-                     <img src="https://acf.geeknetic.es/imgri/Imagenes/Tutoriales/2021/2093-amd-ryzen-5-5600g/2093-amd-ryzen-5-5600g-cabecera.jpg?f=webp" class="card-img-top" alt="...">
-                     <div class="card-body">
-                        <h5 class="card-title">AMD Ryzen 5 5600G</h5>
-                        <p class="card-text">El procesador más popular y vendido de AMD.</p>
-                        <a href="#" class="btn btn-primary">Ver producto</a>
-                     </div>
-                  </div>
-
-               </div>
-
-            </div>
-
-         </div>
-      </section>
-
-      <section id="team" class="team">
-         <div class="container" data-aos="fade-up">
-
-            <div class="section-header">
-               <h2>Our Team</h2>
-               <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis
-                  dolorem dolore earum</p>
-            </div>
-
-            <div class="row gy-4">
-
-               <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-                  <div class="member">
-                     <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-                     <h4>Walter White</h4>
-                     <span>Web Development</span>
-                     <div class="social">
-                        <a href=""><i class="bi bi-twitter"></i></a>
-                        <a href=""><i class="bi bi-facebook"></i></a>
-                        <a href=""><i class="bi bi-instagram"></i></a>
-                        <a href=""><i class="bi bi-linkedin"></i></a>
-                     </div>
-                  </div>
-               </div><!-- End Team Member -->
-
-               <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
-                  <div class="member">
-                     <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-                     <h4>Sarah Jhinson</h4>
-                     <span>Marketing</span>
-                     <div class="social">
-                        <a href=""><i class="bi bi-twitter"></i></a>
-                        <a href=""><i class="bi bi-facebook"></i></a>
-                        <a href=""><i class="bi bi-instagram"></i></a>
-                        <a href=""><i class="bi bi-linkedin"></i></a>
-                     </div>
-                  </div>
-               </div><!-- End Team Member -->
-
-               <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
-                  <div class="member">
-                     <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-                     <h4>William Anderson</h4>
-                     <span>Content</span>
-                     <div class="social">
-                        <a href=""><i class="bi bi-twitter"></i></a>
-                        <a href=""><i class="bi bi-facebook"></i></a>
-                        <a href=""><i class="bi bi-instagram"></i></a>
-                        <a href=""><i class="bi bi-linkedin"></i></a>
-                     </div>
-                  </div>
-               </div><!-- End Team Member -->
-
-               <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-                  <div class="member">
-                     <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-                     <h4>Amanda Jepson</h4>
-                     <span>Accountant</span>
-                     <div class="social">
-                        <a href=""><i class="bi bi-twitter"></i></a>
-                        <a href=""><i class="bi bi-facebook"></i></a>
-                        <a href=""><i class="bi bi-instagram"></i></a>
-                        <a href=""><i class="bi bi-linkedin"></i></a>
-                     </div>
-                  </div>
-               </div><!-- End Team Member -->
-
-            </div>
-
-         </div>
-      </section><!-- End Our Team Section -->
-
-      <!-- ======= Pricing Section ======= -->
-      <section id="pricing" class="pricing sections-bg">
-         <div class="container" data-aos="fade-up">
-
-            <div class="section-header">
-               <h2>Pricing</h2>
-               <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id
-                  nobis omnis tiledo stran delop</p>
-            </div>
-
-            <div class="row g-4 py-lg-5" data-aos="zoom-out" data-aos-delay="100">
-
-               <div class="col-lg-4">
-                  <div class="pricing-item">
-                     <h3>Free Plan</h3>
-                     <div class="icon">
-                        <i class="bi bi-box"></i>
-                     </div>
-                     <h4><sup>$</sup>0<span> / month</span></h4>
-                     <ul>
-                        <li><i class="bi bi-check"></i> Quam adipiscing vitae proin</li>
-                        <li><i class="bi bi-check"></i> Nec feugiat nisl pretium</li>
-                        <li><i class="bi bi-check"></i> Nulla at volutpat diam uteera</li>
-                        <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                        <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-                     </ul>
-                     <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-                  </div>
-               </div><!-- End Pricing Item -->
-
-               <div class="col-lg-4">
-                  <div class="pricing-item featured">
-                     <h3>Business Plan</h3>
-                     <div class="icon">
-                        <i class="bi bi-airplane"></i>
-                     </div>
-
-                     <h4><sup>$</sup>29<span> / month</span></h4>
-                     <ul>
-                        <li><i class="bi bi-check"></i> Quam adipiscing vitae proin</li>
-                        <li><i class="bi bi-check"></i> Nec feugiat nisl pretium</li>
-                        <li><i class="bi bi-check"></i> Nulla at volutpat diam uteera</li>
-                        <li><i class="bi bi-check"></i> Pharetra massa massa ultricies</li>
-                        <li><i class="bi bi-check"></i> Massa ultricies mi quis hendrerit</li>
-                     </ul>
-                     <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-                  </div>
-               </div><!-- End Pricing Item -->
-
-               <div class="col-lg-4">
-                  <div class="pricing-item">
-                     <h3>Developer Plan</h3>
-                     <div class="icon">
-                        <i class="bi bi-send"></i>
-                     </div>
-                     <h4><sup>$</sup>49<span> / month</span></h4>
-                     <ul>
-                        <li><i class="bi bi-check"></i> Quam adipiscing vitae proin</li>
-                        <li><i class="bi bi-check"></i> Nec feugiat nisl pretium</li>
-                        <li><i class="bi bi-check"></i> Nulla at volutpat diam uteera</li>
-                        <li><i class="bi bi-check"></i> Pharetra massa massa ultricies</li>
-                        <li><i class="bi bi-check"></i> Massa ultricies mi quis hendrerit</li>
-                     </ul>
-                     <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-                  </div>
-               </div><!-- End Pricing Item -->
-
-            </div>
-
-         </div>
-      </section><!-- End Pricing Section -->
-
       <!-- ======= Frequently Asked Questions Section ======= -->
       <section id="faq" class="faq">
          <div class="container" data-aos="fade-up">
@@ -561,11 +378,7 @@
 
                <div class="col-lg-4">
                   <div class="content px-xl-5">
-                     <h3>Frequently Asked <strong>Questions</strong></h3>
-                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                     </p>
+                     <h3><strong>Preguntas Frecuentes</strong></h3>
                   </div>
                </div>
 
@@ -578,14 +391,12 @@
                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                               data-bs-target="#faq-content-1">
                               <span class="num">1.</span>
-                              Non consectetur a erat nam at lectus urna duis?
+                              ¿Es segura esta página para realizar compras en línea?
                            </button>
                         </h3>
                         <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                            <div class="accordion-body">
-                              Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non
-                              curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus
-                              non.
+                              Los usuarios suelen preocuparse por la seguridad de sus datos personales y financieros al comprar en línea. Pueden preguntarse sobre la autenticidad y la protección de la página.
                            </div>
                         </div>
                      </div><!-- # Faq item-->
@@ -595,15 +406,12 @@
                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                               data-bs-target="#faq-content-2">
                               <span class="num">2.</span>
-                              Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                              ¿Cuáles son las opciones de pago disponibles?
                            </button>
                         </h3>
                         <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                            <div class="accordion-body">
-                              Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit
-                              laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec
-                              pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus
-                              turpis massa tincidunt dui.
+                              Los usuarios quieren saber qué métodos de pago acepta la tienda en línea. Pueden estar interesados en tarjetas de crédito, PayPal, transferencias bancarias, etc.
                            </div>
                         </div>
                      </div><!-- # Faq item-->
@@ -613,15 +421,12 @@
                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                               data-bs-target="#faq-content-3">
                               <span class="num">3.</span>
-                              Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+                              ¿Cuál es la política de devolución y reembolso?
                            </button>
                         </h3>
                         <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                            <div class="accordion-body">
-                              Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
-                              pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum
-                              tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna
-                              molestie at elementum eu facilisis sed odio morbi quis
+                              La política de devolución es un tema importante para los compradores en línea. Los usuarios quieren conocer los plazos, costos y procedimientos para devolver productos y obtener reembolsos.
                            </div>
                         </div>
                      </div><!-- # Faq item-->
@@ -631,15 +436,12 @@
                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                               data-bs-target="#faq-content-4">
                               <span class="num">4.</span>
-                              Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                              ¿Cuánto tiempo tomará recibir mi pedido?
                            </button>
                         </h3>
                         <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                            <div class="accordion-body">
-                              Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit
-                              laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec
-                              pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus
-                              turpis massa tincidunt dui.
+                              La información sobre el tiempo de entrega es esencial. Los usuarios quieren saber cuándo pueden esperar recibir sus productos, especialmente si es un regalo o una compra urgente.
                            </div>
                         </div>
                      </div><!-- # Faq item-->
@@ -649,14 +451,12 @@
                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                               data-bs-target="#faq-content-5">
                               <span class="num">5.</span>
-                              Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                              ¿Qué medidas se toman para proteger la privacidad de mis datos personales?
                            </button>
                         </h3>
                         <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                            <div class="accordion-body">
-                              Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est
-                              ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit
-                              adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                              La privacidad de los datos es una preocupación creciente. Los usuarios pueden preguntar sobre las políticas de privacidad y seguridad de la página en relación con la recopilación y el uso de información personal.
                            </div>
                         </div>
                      </div>
@@ -668,46 +468,102 @@
          </div>
       </section>
 
-      <section id="contact" class="contact">
+      <!-- Seccion del Nuestro equipo -->
+      <section id="team" class="team">
          <div class="container" data-aos="fade-up">
-            <form action="">
-               <div class="input-group mb-3">
-                  <span class="input-group-text" id="basic-addon1">@</span>
-                  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-               </div>
-               
-               <div class="input-group mb-3">
-                  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username"
-                     aria-describedby="basic-addon2">
-                  <span class="input-group-text" id="basic-addon2">@example.com</span>
-               </div>
-               
-               <label for="basic-url" class="form-label">Your vanity URL</label>
-               <div class="input-group mb-3">
-                  <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
-                  <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-               </div>
-               
-               <div class="input-group mb-3">
-                  <span class="input-group-text">$</span>
-                  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-                  <span class="input-group-text">.00</span>
-               </div>
-               
-               <div class="input-group mb-3">
-                  <input type="text" class="form-control" placeholder="Username" aria-label="Username">
-                  <span class="input-group-text">@</span>
-                  <input type="text" class="form-control" placeholder="Server" aria-label="Server">
-               </div>
-               
-               <div class="input-group">
-                  <span class="input-group-text">With textarea</span>
-                  <textarea class="form-control" aria-label="With textarea"></textarea>
-               </div>
-            </form>
+
+            <div class="section-header">
+               <h2>Nuestro Equipo</h2>
+               <p>Nuestro equipo está compuesto por un grupo apasionado de individuos. 
+                  Estamos aquí para hacer que tu experiencia de compra sea cómoda, segura y memorable. ¡Conócenos un poco más a continuación!</p>
+            </div>
+
+            <div class="row gy-5">
+
+               <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                  <div class="member">
+                     <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                     <h4>Dilan Garcia</h4>
+                     <span>PATRON</span>
+                     <div class="social">
+                        <a href=""><i class="bi bi-twitter"></i></a>
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-linkedin"></i></a>
+                     </div>
+                  </div>
+               </div><!-- End Team Member -->
+
+               <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+                  <div class="member">
+                     <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                     <h4>Elias Sierra</h4>
+                     <span>CHALAN</span>
+                     <div class="social">
+                        <a href=""><i class="bi bi-twitter"></i></a>
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-linkedin"></i></a>
+                     </div>
+                  </div>
+               </div><!-- End Team Member -->
+
+               <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+                  <div class="member">
+                     <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                     <h4>Israel Chacon</h4>
+                     <span>MAISTRO ALBAÑIL</span>
+                     <div class="social">
+                        <a href=""><i class="bi bi-twitter"></i></a>
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-linkedin"></i></a>
+                     </div>
+                  </div>
+               </div><!-- End Team Member -->
+            </div>
 
          </div>
-      </section><!-- End Contact Section -->
+      </section><!-- End Our Team Section -->
+
+      <!-- ======= Portfolio Section ======= -->
+      <section id="about" class="about">
+         <div class="container" data-aos="fade-up">
+
+            <div class="section-header">
+               <h2>Acerca de nosotros</h2>
+               <p>En TomaPerroTech, 
+                  nos enorgullece ser tu destino confiable para todas tus necesidades de hardware y componentes informáticos, además
+                  de contar con componentes de electrónica. Somos un equipo apasionado de entusiastas de la tecnología, y nuestra misión 
+                  es proporcionar a nuestros clientes productos de alta calidad y un servicio excepcional que garantice que sus equipos 
+                  funcionen al máximo rendimiento.</p>
+            </div>
+
+            <div class="row gy-4">
+               <div class="col-lg-6">
+                  <h3>Nuestra Empresa</h3>
+                  <!--<img src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt="Nuestra Empresa">-->
+                  <p>Somos una empresa comprometida con la excelencia y la satisfacción del cliente. Nuestro objetivo es brindar productos y servicios de alta calidad que superen las expectativas de nuestros clientes. </p>
+                  <p>Estamos enfocados en la innovación y la mejora continua. Nos esforzamos por proporcionar soluciones tecnológicas de vanguardia que impulsen el éxito de nuestros clientes.</p>
+               </div>
+               <div class="col-lg-6">
+                  <div class="content ps-0 ps-lg-5">
+                     <p class="fst-italic">
+                        En nuestra empresa, creemos en la importancia de la innovación y la dedicación a la excelencia en todo lo que hacemos.
+                     </p>
+                     <ul>
+                        <li><i class="bi bi-check-circle-fill"></i> Nos comprometemos a ofrecer productos de alta calidad y un servicio excepcional.</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Valoramos la satisfacción del cliente y trabajamos incansablemente para superar sus expectativas.</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Nuestra dedicación a la innovación nos impulsa a buscar soluciones tecnológicas avanzadas para nuestros clientes.</li>
+                     </ul>
+                     <p>
+                        En cada paso que damos, nos esforzamos por superar los estándares de la industria y ser líderes en nuestro campo. Tu éxito es nuestra prioridad.
+                     </p>
+                  </div>
+               </div>
+            </div>            
+         </div>
+      </section><!-- End About Us Section -->
 
    </main>
 
@@ -719,8 +575,7 @@
                <a href="index.html" class="logo d-flex align-items-center">
                   <span>TomaPerroTech</span>
                </a>
-               <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies
-                  darta donna mare fermentum iaculis eu non diam phasellus.</p>
+               <p>Tu sitio confiable de componentes electrónicos y de computación.</p>
                <div class="social-links d-flex mt-4">
                   <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
                   <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -730,18 +585,18 @@
             </div>
 
             <div class="col-lg-2 col-6 footer-links">
-               <h4>Useful Links</h4>
+               <h4>Links Utiles</h4>
                <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About us</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Terms of service</a></li>
-                  <li><a href="#">Privacy policy</a></li>
+                  <li><a href="#">Inicio</a></li>
+                  <li><a href="#">Acerca de Nosotros</a></li>
+                  <li><a href="#">Servicios</a></li>
+                  <li><a href="#">Terminos de Servicio</a></li>
+                  <li><a href="#">Politica de Privacidad</a></li>
                </ul>
             </div>
 
             <div class="col-lg-2 col-6 footer-links">
-               <h4>Our Services</h4>
+               <h4>Nuestro Servicio</h4>
                <ul>
                   <li><a href="#">Web Design</a></li>
                   <li><a href="#">Web Development</a></li>
@@ -754,11 +609,12 @@
             <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
                <h4>Contacto</h4>
                <p>
-                  calle ficticia <br>
+                  Calle Ficticia <br>
                   Parral York, PY 535022<br>
                   Camboya <br><br>
-                  <strong>Phone:</strong> +1 5589 55488 55<br>
-                  <strong>Email:</strong> info@example.com<br>
+                  <strong>Phone:</strong> +52 614 187 67 81<br>
+                  <strong>Email:</strong> TomaPerroTech@outlook.com
+                  <br>
                </p>
 
             </div>

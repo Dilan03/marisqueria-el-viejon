@@ -1,0 +1,14 @@
+.btn-primary{
+  background-color: #008d7d;
+  border: none;
+}
+.btn-primary:hover{
+  background-color: #19aa99;
+}
+.btn-primary:active{
+  background-color: #035f54 !important;
+}
+
+.container span{
+  color: white;
+}/*# sourceMappingURL=main2.css.map */
